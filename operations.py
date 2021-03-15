@@ -1,5 +1,6 @@
 class op:
     def __init__(self):
+        self.dict1 = {}
         self.dict2 = {}
         self.dict2['bmi<18.5'] = ['Chest','Biceps','Rest','Back','Triceps','Rest','Rest']
         self.dict2['bmi<25'] = ['Chest','Biceps','Cardio/Abs','Back','Triceps','Legs','Rest']
